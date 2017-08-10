@@ -1,0 +1,6 @@
+#!/usr/local/bin/execlineb -P
+fdmove -c 2 1
+s6-svlisten1 /run/user/service/lvmetad-daemon
+if { /usr/bin/vgscan }
+/usr/bin/vgchange -ay
+
