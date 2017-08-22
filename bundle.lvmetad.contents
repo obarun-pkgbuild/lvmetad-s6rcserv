@@ -1,4 +1,4 @@
 lvmetad-prepare
-lvmetad-daemon
+lvmetad-longrun
 lvmetad-log
 lvmetad-after
